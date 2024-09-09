@@ -1,0 +1,67 @@
+.comment {
+
+    margin: -10px 0;
+}
+
+iframe {
+width: 100%;
+margin: 25px 0px;
+}
+.comment .comment-profile-image {
+    border-radius: 50%;
+    height: 76px;
+}
+
+
+.video-btns img {
+    height: 20px;
+}
+
+.video-btns span {
+    align-items: center;
+    gap: 15px;
+}
+
+.video-btns span {
+    display: flex;
+    flex-direction: row;
+}
+
+.puplisher img {
+    height: 65px;
+    margin: 0 20px 0 0;
+    border-radius: 50px;
+}
+
+.comment-action img {
+    height: 19px;
+    margin: 0 15px;
+}
+
+
+.subscribed {
+    background-color: rgb(130, 130, 130);
+    transition: 0.08s;
+}
+
+.subscribed:hover {
+    background-color: rgb(57, 57, 57);
+} 
+
+.subscribe-button {
+    background-color: rgb(236, 16, 16);
+    transition: 0.08s;
+}
+
+.subscribe-button:hover {
+    background-color: rgb(150, 17, 17);
+}
+
+#add-comment {
+    padding: 5px 12px;
+    border: solid 1px rgb(218, 218, 218);
+    width: 90%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+}

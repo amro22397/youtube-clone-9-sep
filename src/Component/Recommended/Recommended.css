@@ -1,0 +1,10 @@
+.side-video-list img {
+    height: 100px;
+    border-radius: 10px;
+}
+
+.side-video-list {
+    border-bottom: solid rgb(238, 238, 238) 1px;
+    margin-bottom: 0px;
+    padding: 10px 10px;
+}

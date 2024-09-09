@@ -1,0 +1,82 @@
+.shortcut-links img{
+width: 22.5px;
+margin-right: 20px;
+}
+
+.sidebar {
+    background-color: white;
+    position: fixed;
+    width: 14%;
+    height: 100vh;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding-left: 15px;
+    padding-top: 20px;
+    border-right: solid rgb(236, 236, 236) 1px ;
+}
+
+.small-sidebar {
+    width: 5%;
+}
+
+.small-sidebar p {
+    display: none;
+}
+
+.small-sidebar h3 {
+    display: none;
+}
+
+.small-sidebar hr {
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.side-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+    cursor: pointer;
+    width: 100%;
+    padding: 4px 15px;
+    border-radius: 50px;
+    color: rgb(48, 45, 45);
+    
+}
+
+.small-sidebar .side-link {
+    width: 86%;
+}
+
+.side-link:hover {
+    background-color: rgb(237, 237, 237);
+    color: rgb(103, 103, 103);
+}
+
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    background: white;
+    width: 85%;
+}
+
+.subscribed-list img {
+   width: 25px;
+   border-radius: 50%;
+   margin-right: 20px; 
+}
+
+.active {
+    background-color: rgba(64, 60, 60,0.15);
+    color: rgb(48, 45, 45);
+}
+
+.active:hover {
+    background-color: rgba(64, 60, 60,0.15);
+    color: rgb(48, 45, 45);
+}

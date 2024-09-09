@@ -1,0 +1,11 @@
+.feed {
+    
+    
+    margin-top: 15px;
+}
+
+.feed .card {
+    padding: 0px 10px;
+    border: solid rgb(236, 236, 236) 0px;
+    border-radius: 5px;
+}

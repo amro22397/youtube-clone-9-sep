@@ -1,0 +1,50 @@
+nav {
+    overflow-x: hidden;
+    background-color: rgb(249, 249, 249);
+    border-bottom: solid rgb(233, 233, 233) 1px;
+}
+
+.nav-left img:not(.logo) {
+    height: 19.5px;
+}
+
+.logo {
+    height: 29.5px;
+    margin: 0 18px;
+}
+
+.nav-right img:not(.profile) {
+    height: 25px;
+    margin: 0 5px;
+}
+
+.nav-right img:not(.profile):hover {
+    transform: scale(1.1);
+}
+
+.profile:hover {
+    transform: scale(1.05);
+}
+
+.profile {
+    height: 44px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+
+
+.nav-middle {
+    border: solid rgb(219, 219, 219) 1px;
+    border-radius: 50px;
+}
+
+.nav-middle .search-input-nav {
+    background-color: rgb(249, 249, 249);
+    color: rgb(32, 31, 31);
+}
+
+#sidebar-logos img {
+    height: 35px;
+    width: 35px;
+}
